@@ -1,0 +1,11 @@
+# Retail Sales Performance & Business Intelligence — Executive Summary
+
+Across **9,994 transactions**, the business generated **$2.30M in total sales** and **$286.4K in profit** — a 12.47% profit margin, averaging **$57.18 profit per order** across **5,009 orders** and **793 customers**.
+
+**Technology** is the standout category, leading in both sales ($836K) and profit ($145K). **Furniture**, by contrast, generates comparable sales ($742K) but returns only **$18K in profit** — the weakest margin of the three categories, pointing to a pricing or discounting problem rather than a demand problem. At the state level, **Texas** ranks third in sales but does not appear among the top profit-generating states, echoing the same pattern: strong volume, weak profitability.
+
+Discounting is a measurable driver of this gap. Orders with discounts above roughly 30% show **negative average profit**, meaning a meaningful share of "sales" are actively losing money once discounts are applied. Statistical testing supports the core findings: Sales and Profit are significantly correlated (Pearson r = 0.48, p < 0.0001), and Technology's profit advantage over Furniture is statistically significant (t = 7.12, p < 0.0001). Customer segments (Consumer, Corporate, Home Office), however, show **no significant difference** in average sales (ANOVA p = 0.55) — segment alone isn't a meaningful lever for revenue strategy.
+
+The business shows healthy, consistent growth — from $484K in 2014 to $733K in 2017 — with a clear seasonal peak between **September and December**. A predictive model (Random Forest / Linear Regression, R² ≈ 0.19) confirms that order quantity, shipping time, discount level, and product sub-category are the strongest available predictors of sales value, though the modest R² suggests other unmeasured factors (marketing, seasonality depth, competitor pricing) also play a role.
+
+**Recommendations:** Review Furniture pricing and discount policy to close its margin gap; direct incremental marketing investment toward Technology, where it earns the best return; cap or gate discounts above 30% given their consistent link to unprofitable orders; investigate Texas's cost or discounting structure specifically; and align inventory and staffing plans with the reliable September–December demand surge.
